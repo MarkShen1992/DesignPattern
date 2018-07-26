@@ -1,0 +1,14 @@
+package com.bjsxt.state;
+
+/**
+ * 空闲状态
+ * @author Administrator
+ *
+ */
+public class FreeState implements State {
+
+	public void handle() {
+		System.out.println("房间空闲！！！没人住！");
+	}
+
+}
